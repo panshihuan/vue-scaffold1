@@ -1,0 +1,29 @@
+@import '~@/assets/styles/reset.scss';
+@import '~@/assets/styles/functions/_px2vw.scss';
+
+html,
+body {
+  height: 100%;
+  background: rgba(246, 246, 246, 1);;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: auto;
+}
+
+.mobile {
+  margin: auto;
+  width: _px2vw(750);
+  min-height: 100%;
+  &-home {
+    &-test {
+      width: px2vw(20);
+      height: px2vw(20);
+      border-radius: 100%;
+      background: #F00;
+      margin: auto;
+      position: relative;
+    }
+  }
+}
