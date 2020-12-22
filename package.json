@@ -57,7 +57,7 @@
     "image-webpack-loader": "^3.4.2",
     "iview": "^2.3.0",
     "mockjs": "^1.0.1-beta3",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^8.0.1",
     "node-sass": "^4.5.3",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^2.0.0",
